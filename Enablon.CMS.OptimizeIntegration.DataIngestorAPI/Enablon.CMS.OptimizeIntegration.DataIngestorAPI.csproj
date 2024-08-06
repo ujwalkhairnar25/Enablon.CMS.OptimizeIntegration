@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Enablon.CMS.Optimize.DataIngestorAPI.BL\Enablon.CMS.Optimize.DataIngestorAPI.BL.csproj" />
+    <ProjectReference Include="..\Enablon.CMS.Optimize.Infrastructure\Enablon.CMS.Optimize.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
